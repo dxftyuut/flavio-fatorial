@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run fatorial.js
-        run: node fatorial.js   # << Aqui você executa o arquivo desejado
+        run: npm start
 
       - name: Run Jest tests
         run: npm test
