@@ -1,9 +1,10 @@
 {
-  "name": "multiplicador-node",
+  "name": "fatorial-node",
   "version": "1.0.0",
-  "description": "Projeto Node.js para multiplicação com testes",
-  "main": "multiplicar.js",
+  "description": "Projeto Node.js para cálculo de fatorial com testes",
+  "main": "fatorial.js",
   "scripts": {
+    "start": "node fatorial.js",
     "test": "jest"
   },
   "devDependencies": {
