@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run fatorial.js
+        run: node fatorial.js   # << Aqui você executa o arquivo desejado
+
       - name: Run Jest tests
         run: npm test
